@@ -63,3 +63,23 @@ function checkPermission(message) {
 client.login(token)
 
 console.log("hello Wild_dinosaur");
+if(message.content == `시안 주사위`) {
+  const number = [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+];
+
+const Response = Math.floor(Math.random() * number.length);
+
+message.channel.send(`뭐가 나오셨어요?`)
+}
