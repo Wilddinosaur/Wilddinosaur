@@ -63,10 +63,11 @@ function checkPermission(message) {
 client.login(token)
 
 console.log("hello Wild_dinosaur");
+
 if(message.content == `시안 주사위`) {
   const number = [
   "1",
-  "2",
+  "2", 
   "3",
   "4",
   "5",
