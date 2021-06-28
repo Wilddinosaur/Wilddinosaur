@@ -76,7 +76,9 @@ if(message.content == `시안 주사위`) {
   "12",
 ];
 
-const Response = Math.floor(Math.random() * number.length);
+const Response = Math.floor(Math.random(1) * number.length);
+
+const Response = Math.floor(Math.random(2) * number.length);
 
 message.channel.send(`뭐가 나오셨어요?`) 
 }
