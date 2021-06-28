@@ -60,12 +60,6 @@ function checkPermission(message) {
   }
 }
 
-client.event
-async ;def; on_message(message);
-    if (message)content=startswith('시안 안녕');
-        channel = message.channel
-        await channel.send('안녕하세요!')
-
 client.login(token)
 
 console.log("hello Wild_dinosaur");
