@@ -58,16 +58,12 @@ function checkPermission(message) {
   } else {
     return false
   }
-}
-
-client.login(token)
-
-console.log("hello Wild_dinosaur");
+} 
 
 if(message.content == `시안 주사위`) {
   const number = [
   "1",
-  "2", 
+  "2",
   "3",
   "4",
   "5",
@@ -82,5 +78,9 @@ if(message.content == `시안 주사위`) {
 
 const Response = Math.floor(Math.random() * number.length);
 
-message.channel.send(`뭐가 나오셨어요?`)
+message.channel.send(`뭐가 나오셨어요?`) 
 }
+
+client.login(token)
+
+console.log("hello Wild_dinosaur");
